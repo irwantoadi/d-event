@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="nav_view">
+
+    <group android:checkableBehavior="single"
+        >
+        <item
+            android:id="@+id/nav_chat"
+            android:title="Dashboard" />
+        <item
+            android:id="@+id/nav_beranda"
+            android:title="Task" />
+        <item
+            android:id="@+id/nav_about"
+            android:title="Budget" />
+        <item
+            android:id="@+id/nav_apa"
+            android:title="Guest" />
+        <item
+            android:id="@+id/nav_ketentuan"
+            android:title="Vendor" />
+
+    </group>
+
+
+</menu>
